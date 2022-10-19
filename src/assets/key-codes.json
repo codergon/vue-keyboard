@@ -1,0 +1,474 @@
+{
+  "keys": [
+    [
+      {
+        "code": 192,
+        "default": "`",
+        "shift": "~",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 49,
+        "default": "1",
+        "shift": "!",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 50,
+        "default": "2",
+        "shift": "@",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 51,
+        "default": "3",
+        "shift": "#",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 52,
+        "default": "4",
+        "shift": "$",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 53,
+        "default": "5",
+        "shift": "%",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 54,
+        "default": "6",
+        "shift": "^",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 55,
+        "default": "7",
+        "shift": "&",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 56,
+        "default": "8",
+        "shift": "*",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 57,
+        "default": "9",
+        "shift": "(",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 48,
+        "default": "0",
+        "shift": ")",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 189,
+        "default": "-",
+        "shift": "_",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 187,
+        "default": "=",
+        "shift": "+",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 8,
+        "default": "backspace",
+        "shift": null,
+        "size": "2u",
+        "type": "function"
+      }
+    ],
+
+    [
+      {
+        "code": 9,
+        "default": "tab",
+        "shift": null,
+        "size": "1_5u",
+        "type": "function"
+      },
+      {
+        "code": 81,
+        "default": "q",
+        "shift": "Q",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 87,
+        "default": "w",
+        "shift": "W",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 69,
+        "default": "e",
+        "shift": "E",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 82,
+        "default": "r",
+        "shift": "R",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 84,
+        "default": "t",
+        "shift": "T",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 89,
+        "default": "y",
+        "shift": "Y",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 85,
+        "default": "u",
+        "shift": "U",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 73,
+        "default": "i",
+        "shift": "I",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 79,
+        "default": "o",
+        "shift": "O",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 80,
+        "default": "p",
+        "shift": "P",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 219,
+        "default": "[",
+        "shift": "{",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 221,
+        "default": "]",
+        "shift": "}",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 220,
+        "default": "\\",
+        "shift": "|",
+        "size": "1_5u",
+        "type": "character"
+      }
+    ],
+
+    [
+      {
+        "code": 20,
+        "default": "caps lock",
+        "shift": null,
+        "size": "1_75u",
+        "type": "function"
+      },
+      {
+        "code": 65,
+        "default": "a",
+        "shift": "A",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 83,
+        "default": "s",
+        "shift": "S",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 68,
+        "default": "d",
+        "shift": "D",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 70,
+        "default": "f",
+        "shift": "F",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 71,
+        "default": "g",
+        "shift": "G",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 72,
+        "default": "h",
+        "shift": "H",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 74,
+        "default": "j",
+        "shift": "J",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 75,
+        "default": "k",
+        "shift": "K",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 76,
+        "default": "l",
+        "shift": "L",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 186,
+        "default": ";",
+        "shift": ":",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 222,
+        "default": "'",
+        "shift": "\"",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 13,
+        "default": "enter",
+        "shift": null,
+        "size": "2_25u",
+        "type": "function"
+      }
+    ],
+
+    [
+      {
+        "code": 16,
+        "default": "shift",
+        "shift": null,
+        "size": "2_25u",
+        "type": "function"
+      },
+      {
+        "code": 90,
+        "default": "z",
+        "shift": "Z",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 88,
+        "default": "x",
+        "shift": "X",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 67,
+        "default": "c",
+        "shift": "C",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 86,
+        "default": "v",
+        "shift": "V",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 66,
+        "default": "b",
+        "shift": "B",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 78,
+        "default": "n",
+        "shift": "N",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 77,
+        "default": "m",
+        "shift": "M",
+        "size": "1u",
+        "type": "letter"
+      },
+      {
+        "code": 188,
+        "default": ",",
+        "shift": "<",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 190,
+        "default": ".",
+        "shift": ">",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 191,
+        "default": "/",
+        "shift": "?",
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 16,
+        "default": "shift",
+        "shift": null,
+        "size": "2_75u",
+        "type": "function"
+      }
+    ],
+
+    [
+      {
+        "code": null,
+        "default": "fn",
+        "shift": null,
+        "size": "1u",
+        "type": "function"
+      },
+      {
+        "code": 17,
+        "default": "ctrl",
+        "shift": null,
+        "size": "1u",
+        "type": "function"
+      },
+      {
+        "code": 91,
+        "default": "MetaLeft",
+        "shift": null,
+        "size": "1u",
+        "type": "character"
+      },
+
+      {
+        "code": 18,
+        "default": "alt",
+        "shift": null,
+        "size": "1u",
+        "type": "character"
+      },
+
+      {
+        "code": 32,
+        "default": "space",
+        "shift": null,
+        "size": "5_34u",
+        "type": "special"
+      },
+      {
+        "code": 18,
+        "default": "alt",
+        "shift": null,
+        "size": "1u",
+        "type": "character"
+      },
+      {
+        "code": 17,
+        "default": "ctrl",
+        "shift": null,
+        "size": "1u",
+        "type": "function"
+      },
+      {
+        "size": "3_78u",
+        "default": "arrowkeys",
+        "arrowKeys": [
+          {
+            "code": 37,
+            "default": "leftarrow",
+            "shift": null,
+            "size": "1u",
+            "type": "function"
+          },
+          {
+            "code": 38,
+            "default": "uparrow",
+            "shift": null,
+            "size": "1_72u",
+            "type": "function"
+          },
+          {
+            "code": 40,
+            "default": "downarrow",
+            "shift": null,
+            "size": "1_72u",
+            "type": "function"
+          },
+          {
+            "code": 39,
+            "default": "rightarrow",
+            "shift": null,
+            "size": "1u",
+            "type": "function"
+          }
+        ]
+      }
+    ]
+  ]
+}
