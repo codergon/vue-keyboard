@@ -1,5 +1,5 @@
 {
-  "name": "vue-keyboard",
+  "name": "vue-keyboard-plugin",
   "description": "Vue.js Windows QWERTY onscreen keyboard for textarea elements",
   "version": "1.0.0",
   "main": "lib/index.js",

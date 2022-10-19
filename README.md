@@ -6,7 +6,7 @@ Vue.js Windows QWERTY onscreen keyboard for textarea elements
 ## Installation
 
 ```
-npm install vue-keyboard
+npm install vue-keyboard-plugin
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Install the plugin into the application instance
 ```javascript
 import App from "./App.vue";
 import { createApp } from "vue";
-import VueKeyboard from "vue-keyboard";
+import VueKeyboard from "vue-keyboard-plugin";
 
 const app = createApp(App);
 app.use(VueKeyboard);
