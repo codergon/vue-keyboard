@@ -15,4 +15,6 @@
   <VueKeyboard />
 </template>
 
-<style src="./assets/index.css"></style>
+<script setup>
+import VueKeyboard from "./VueKeyboard.vue";
+</script>

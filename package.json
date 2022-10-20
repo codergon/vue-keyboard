@@ -1,18 +1,18 @@
 {
   "name": "vue-keyboard-plugin",
   "description": "Vue.js Windows QWERTY onscreen keyboard for textarea elements",
-  "version": "1.0.0",
-  "main": "lib/index.js",
+  "version": "1.2.0",
+  "main": "./dist/vue-keyboard-plugin.umd.js",
+  "module": "./dist/vue-keyboard-plugin.mjs",
   "exports": {
-    ".": "./lib/index.js",
-    "./styles.css": "./lib/style.css"
-  },
-  "browser": {
-    "./styles.css": "./lib/style.css"
+    ".": {
+      "import": "./dist/vue-keyboard-plugin.mjs",
+      "require": "./dist/vue-keyboard-plugin.umd.js"
+    }
   },
   "license": "MIT",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "start": "vite",
@@ -20,13 +20,18 @@
     "build": "vite build",
     "preview": "vite preview --port 4173"
   },
-  "author": "Atakere Williams",
+  "author": {
+    "name": "Williams",
+    "email": "atakerewilliams@gmail.com",
+    "url": "https://github.com/codergon"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codergon/vue-keyboard.git"
   },
   "bugs": {
-    "url": "https://github.com/codergon/vue-keyboard/issues"
+    "url": "https://github.com/codergon/vue-keyboard/issues",
+    "email": "atakerewilliams@gmail.com"
   },
   "homepage": "https://github.com/codergon/vue-keyboard#readme",
   "keywords": [
@@ -35,16 +40,21 @@
     "on-screen",
     "textarea"
   ],
-  "peerDependencies": {
-    "vue": "^3.2.38"
-  },
   "devDependencies": {
-    "vite": "^3.0.9",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
     "sass": "^1.55.0",
-    "postcss": "^8.4.17",
-    "tailwindcss": "^3.1.8",
     "sass-loader": "^13.1.0",
-    "autoprefixer": "^10.4.12",
-    "@vitejs/plugin-vue": "^3.0.3"
+    "vite": "^3.1.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.1.8",
+    "vue": ">=3.2.41"
+  },
+  "dependencies": {
+    "vite-plugin-css-injected-by-js": "^2.0.4",
+    "vue": "^3.2.41",
+    "tailwindcss": "^3.1.8"
   }
 }

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Interface from "./Interface.vue";
+import Interface from "./components/Interface.vue";
 import { keys } from "@/assets/key-codes.json";
 
 export default {

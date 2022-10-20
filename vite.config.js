@@ -1,18 +1,15 @@
 import { fileURLToPath, URL } from "node:url";
-
+const path = require("path");
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
+import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
-  plugins: [vue()],
   build: {
-    outDir: "./lib",
-    cssCodeSplit: false,
     lib: {
-      entry: "./src/VueKeyboardPlugin.js",
-      formats: ["es", "cjs"],
+      entry: path.resolve(__dirname, "src/entry.js"),
       name: "VueKeyboard",
-      fileName: format => (format === "es" ? "index.js" : "index.cjs"),
+      fileName: "vue-keyboard-plugin",
     },
     rollupOptions: {
       external: ["vue"],
@@ -28,4 +25,5 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  plugins: [vue(), cssInjectedByJsPlugin()],
 });

@@ -11,24 +11,32 @@ npm install vue-keyboard-plugin
 
 ## Usage
 
-Install the plugin into the application instance
+Add the plugin path to your tailwind config content
 
 ```javascript
-import App from "./App.vue";
-import { createApp } from "vue";
-import VueKeyboard from "vue-keyboard-plugin";
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/vue-keyboard-plugin/dist/**/*.{vue,js,ts,jsx,tsx}",
+  ],
 
-const app = createApp(App);
-app.use(VueKeyboard);
-app.mount("#app");
+  plugins: [],
+};
 ```
 
-Render the keyboard component anywhere in your app
+Render the keyboard component at the top layer of your app
 
 ```javascript
 <!-- App.vue -->
 
+<script setup>
+import VueKeyboard from "vue-keyboard-plugin";
+
+</script>
+
 <template>
+  <textarea name="" id="" cols="30" rows="10"/>
   ....
 
   <VueKeyboard />
